@@ -12,7 +12,7 @@ class App:
         self.HEIGHT = 256
         self.WIDTH = 256
         # Usaremos distintas variables de la librería pyxel para crear el tablero y cargar el fichero con los recursos.
-        pyxel.init(self.HEIGHT, 256, caption="It's Lemmings' time", fps=32)
+        pyxel.init(self.HEIGHT, 256, fps=32)
         pyxel.load("total.pyxres")
         # Hacemos que el cursor aparezca en pantalla
         # Establecemos un atributo que pondrá en pausa el juego según sus valores
